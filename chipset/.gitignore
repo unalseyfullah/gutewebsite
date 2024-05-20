@@ -1,0 +1,5 @@
+sqlpwd
+/www/wp-config.php
+/www/wp-content/uploads
+!/**/.keep
+.idea
