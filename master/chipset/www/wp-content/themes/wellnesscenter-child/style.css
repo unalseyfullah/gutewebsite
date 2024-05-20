@@ -1,0 +1,352 @@
+/*
+Theme Name: WellnessCenter
+Theme URI: http://www.xpeedstudio.com
+Description: Child theme for the Book. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Theme URI: http://themeforest.net/user/XpeedStudio
+Author: XpeedStudio
+Author URI: http://xpeedstudio.com
+Version: 2.2
+* Tags: one-column, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+Template: wellnesscenter
+*/
+
+.navbar {
+	min-height: 20px !important;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navigation-top .navbar-nav li {
+	border-right: 1px solid gray;
+	line-height: 0.1px;
+}
+
+.navigation-top .navbar-nav li:last-child {
+	border-right: none;
+}
+
+.navigation-top .navbar-nav li a {
+	color: gray !important;
+	line-height: 0.1px;
+}
+
+.navigation-top .navbar-nav li a:hover {
+	color: red !important;
+	line-height: 0.1px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: red !important;
+	background-color: transparent !important;
+	line-height: 0.1px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	color: gray !important;
+	background-color: transparent !important;
+	line-height: 0.1px;
+}
+
+@media (min-width: 320px) {
+	.button-text-color a:hover{
+		text-decoration: none;
+	}
+
+	.navbar .navbar-collapse{
+		text-align: center;
+	}
+
+	.navbar .navbar-nav{
+		display: inline-block;
+		float: none;
+		vertical-align: bottom;
+	}	
+
+	.navigation-top .navbar-nav li {
+		border-right: 1px solid gray;
+		line-height: 0.1px;
+	}
+
+	.navigation-top .navbar-nav li:last-child {
+		border-right: none;
+	}
+
+	.navigation-top .navbar-nav li a {
+		color: gray !important;
+		line-height: 0.1px;
+	}
+
+	.navigation-top .navbar-nav li a:hover {
+		color: red !important;
+		line-height: 0.1px;
+	}
+
+	.navbar-default .navbar-nav > .active > a {
+		color: red !important;
+		background-color: transparent !important;
+		line-height: 0.1px;
+	}
+
+	.navbar-default .navbar-nav > .active > a:hover {
+		color: gray !important;
+		background-color: transparent !important;
+		line-height: 0.1px;
+	}
+}
+/*
+body {
+	position: absolute; 
+	width: 100%;
+}
+*/
+.hentry {
+margin: 0px 0 -4em !important;
+}
+
+.panel-grid {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+@media (min-width: 1441px) {
+	.navigation-top{
+		font-size: 11px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -65px;
+		margin-bottom: -62px;
+	}
+
+	#text-and-button {
+		margin-right: 1%;
+		margin-left: 1%;
+		width: 98%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -95px;
+		margin-bottom: -20px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -100px;
+   	}
+}
+
+@media (max-width: 1440px) {
+	.navigation-top{
+		font-size: 11px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -117px;
+		margin-bottom: -192px;
+	}
+
+	#text-and-button {
+		margin-right: 1%;
+		margin-left: 1%;
+		width: 98%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -117px;
+		margin-bottom: -150px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -100px;
+   	}
+}
+
+@media (max-width: 1024px) {
+	.navigation-top{
+		font-size: 9px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -110px;
+		margin-bottom: -204px;
+	}
+
+	#text-and-button {
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -110px;
+		margin-bottom: -163px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -100px;
+   	}
+}
+
+@media (max-width: 768px) {
+	.navigation-top{
+		font-size: 10px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -106px;
+		margin-bottom: -170px;
+	}
+
+	#text-and-button {
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -106px;
+		margin-bottom: -128px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -100px;
+   	}
+}
+
+@media (max-width: 425px) {
+	.navigation-top{
+		font-size: 10px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -59px;
+		margin-bottom: -123px;
+	}
+
+	#text-and-button {
+		margin-right: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -59px;
+		margin-bottom: -129px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -110px;
+   	}
+}
+
+@media (max-width: 375px) {
+	.slider_ahmet {
+		position: static;
+		margin-top: -52px;
+		margin-bottom: -116px;
+	}
+
+	#text-and-button {
+		margin-right: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -52px;
+		margin-bottom: -71px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -110px;
+   	}
+}
+
+@media (max-width: 320px) {
+	.navigation-top{
+		font-size: 10px !important;
+		padding: 0 !important;
+	}
+
+	.slider_ahmet {
+		position: static;
+		margin-top: -43px;
+		margin-bottom: -107px;
+	}
+
+	#text-and-button {
+		margin-right: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	.slider_ahmet2 {
+		position: static;
+		margin-top: -44px;
+		margin-bottom: -64px;
+	}
+
+	.headline-second-page {
+	    margin-left: 100px;
+	    margin-top: -110px;
+   	}
+}
+
+.footer-simple {
+	background-color: darkgray !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+#sidebarRow {
+	background-color: darkgray;
+	padding-top: 30px;
+}
+
+#footer-sidebar {
+	display:block;
+}
+
+#footer-sidebar .widget_title {
+	color: white;
+}
+
+#copyrightRow {
+	background-color: gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+#copyrightRow p {
+	color: white;
+}
